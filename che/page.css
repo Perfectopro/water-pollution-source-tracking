@@ -1,0 +1,191 @@
+header{
+    width: 99vw;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav .name li{
+    align-items: center;
+    font-size: 1.3rem;
+    color: rgba(35, 34, 34, 0.756);
+    margin-top: 40px;
+    font-weight: 800;
+}
+
+.logo{
+    width: 90px;
+    margin-top: -40px;
+}
+
+.l{
+    width: 90px;
+    margin-top: -40px;
+}
+
+.l:hover{
+    scale: 1.2;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.logo:hover{
+    scale: 1.2;
+    transition: 2s;
+    cursor: pointer;
+}
+
+nav .name li:hover{
+    scale: 1.2;
+    color: black;
+    cursor: pointer;
+}
+
+.name {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 45vw;
+    margin-left: 0px;
+}
+
+.n2{
+    width: 45vw;
+}
+
+.n2 li{
+    font-size: 1.1rem;
+    color: rgba(35, 34, 34, 0.756);
+    font-weight: 800;
+    margin-top: 40px;
+}
+
+.n2 li:hover{
+    scale: 1.2;
+    color: black;
+    cursor: pointer;
+}
+
+.li{
+    display: flex;
+    justify-content: space-around;
+}
+.llogo{
+    width: 40px;
+    margin-top: -8px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.p2{
+    align-items: center;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+div.first{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.f11{
+    width: 45vw;
+    margin-top: 20px;
+}
+
+.img{
+    width: 400px;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+figcaption{
+    align-items: center;
+}
+
+.f22{
+    width: 45vw;
+}
+.details{
+    font-size: 1.3rem;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+
+.p1{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+ol li{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+main{
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 470px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    height: auto;
+}
+
+.div3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sa:hover{
+    scale: 1.1;
+    color: rgba(211, 18, 18, 0.686);
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    width: 75vw;
+}
+
+.flex ul{
+    list-style: none;
+}
+
+.flex ul li:hover{
+    scale: 1.1;
+    color: rgba(211, 18, 18, 0.686);
+    cursor: pointer;
+}
